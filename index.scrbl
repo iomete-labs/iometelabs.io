@@ -11,7 +11,7 @@
 @define[styles]{
  @stylesheet{/index.css}}
 
-@define[logo]{/logo.png"}
+@define[logo]{/logo.png}
 
 @define[content]{
  @div[class: "center-vertical max-page"]{
