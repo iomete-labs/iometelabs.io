@@ -10,17 +10,17 @@
 @(define styles
  @(stylesheet "/index.css"))
 
-@(define (center content)
- @div[class: "center-vertical max-page"]{
-  @div[class: "center-horizontal"]{
-   @content}})
-
 @(define logo "/logo.png")
 
-@(define content
- @(center
-  @a[href: "mailto:alex@iometelabs.io"]{
-   @img[src: @logo class: "img-medium"]}))
+@define[content]{
+ @div[class: "center-vertical max-page"]{
+  @div[class: "center-horizontal"]{
+   @a[href: "mailto:alex@iometelabs.io"]{
+    @img[src: @logo class: "img-medium"]}}
+
+   @h1[class: "center-text"]{
+    Work in progress, come check out our
+    @a[href: "https://blog.iometelabs.io"]{blog}!}}}
 
 @html[lang: "en"]{
  @head{
