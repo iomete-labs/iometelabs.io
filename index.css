@@ -19,3 +19,7 @@
 .img-medium {
   max-width: 200px;
 }
+
+.center-text {
+  text-align: center;
+}
