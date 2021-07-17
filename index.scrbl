@@ -17,11 +17,7 @@
  @div[class: "center-vertical max-page"]{
   @div[class: "center-horizontal"]{
    @a[href: "mailto:alex@iometelabs.io"]{
-    @img[src: @logo class: "img-medium"]}}
-
-   @h1[class: "center-text"]{
-    Work in progress, come check out our
-    @a[href: "https://blog.iometelabs.io"]{blog}!}}}
+    @img[src: @logo class: "img-medium"]}}}}
 
 @(define site-desc "
  We're developing zero knowledge proof technologies for blockchain
