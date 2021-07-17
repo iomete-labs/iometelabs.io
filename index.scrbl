@@ -17,7 +17,7 @@
  @div[class: "center-vertical max-page"]{
   @div[class: "center-horizontal"]{
    @a[href: "mailto:alex@iometelabs.io"]{
-    @img[src: @logo class: "img-medium"]}}}}
+    @img[id: "logo" src: @logo class: "img-medium"]}}}}
 
 @(define site-desc "
  We're developing zero knowledge proof technologies for blockchain
