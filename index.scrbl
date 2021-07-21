@@ -31,7 +31,7 @@
    "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"]
   @meta[property: "og:title" content: site-name]
   @meta[property: "og:url" content: site-url]
-  @meta[property: "og:image" content: @(format "~a/logo.png" site-url)]
+  @meta[property: "og:image" content: @(format "~a/embed.png" site-url)]
   @meta[property: "og:description" content: site-desc]
   @styles}
 
