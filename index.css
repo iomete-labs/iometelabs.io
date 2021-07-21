@@ -1,7 +1,7 @@
 body {
   background-image: url("/droplets.jpg");
-  animation: move-background 300s infinite;
-  background-position: top left;
+  animation: move-background 500s infinite;
+  background-position: bottom left;
 }
 
 @keyframes move-background {
