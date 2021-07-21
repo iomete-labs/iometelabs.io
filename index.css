@@ -1,6 +1,6 @@
 body {
   background-image: url("/droplets.jpg");
-  animation: move-background 500s infinite;
+  animation: move-background 800s infinite;
   background-position: bottom left;
 }
 
