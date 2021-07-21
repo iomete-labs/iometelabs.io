@@ -1,9 +1,12 @@
 
 body
   background-image: url("/droplets.jpg")
-  background-position: center
-  background-repeat: no-repeat
-  background-size: cover
+  animation: move-background 300s infinite
+  background-position: top left
+
+@keyframes move-background
+  50%
+    background-position: center
 
 #logo
   background-color: white
