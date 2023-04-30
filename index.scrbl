@@ -20,8 +20,7 @@
     @img[id: "logo" src: @logo class: "img-medium"]}}}}
 
 @(define site-desc "
- We're developing blockchain technologies and zero knowledge proof
- technologies.")
+ We're developing blockchain and zero knowledge proof technologies.")
 
 @html[lang: "en"]{
  @head{
